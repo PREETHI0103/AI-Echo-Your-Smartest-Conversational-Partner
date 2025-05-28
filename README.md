@@ -7,6 +7,7 @@ An intelligent NLP-powered app that classifies ChatGPT user reviews into **Posit
   <img src="https://img.shields.io/badge/NLP-✓-purple" />
   <img src="https://img.shields.io/badge/Streamlit-✓-red" />
   <img src="https://img.shields.io/badge/Machine_Learning-✓-brightgreen" />
+  <img src="https://img.shields.io/badge/Deep_Learning-✓-brightgreen" />
 </p>
 
 ---
