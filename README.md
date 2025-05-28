@@ -132,7 +132,7 @@ In the deployed Streamlit app, users can interactively explore:
 ---
 ## 🧾 Conclusion
 
-AI Echo analyzes ChatGPT user reviews using both classical ML and deep learning. After preprocessing and VADER-based sentiment labeling, we found that traditional models like Logistic Regression with TF-IDF outperformed deep models (e.g., BiLSTM) due to the noisy, non-contextual nature of the data.
+AI Echo analyzes ChatGPT user reviews using both classical ML and deep learning. After preprocessing and VADER-based sentiment labeling, we found that traditional models with TF-IDF outperformed than deep learning models (e.g., BiLSTM) due to the noisy, non-contextual nature of the data.
 
 ---
 
