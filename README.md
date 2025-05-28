@@ -1,6 +1,13 @@
 # 🤖 AI Echo: Your Smartest Conversational Partner
 
-**AI Echo** is a sentiment analysis application built to understand how users feel about ChatGPT. It uses Natural Language Processing (NLP) to process user reviews, classify sentiment, and visualize insights. The application combines machine learning and deep learning models and is deployed using Streamlit with interactive analysis and live predictions.
+An intelligent NLP-powered app that classifies ChatGPT user reviews into **Positive, Neutral, or Negative** sentiments. Built to provide deep insights into user satisfaction, feedback trends, and common themes — all wrapped in an interactive Streamlit interface for real-time exploration and prediction.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-✓-blue" />
+  <img src="https://img.shields.io/badge/NLP-✓-purple" />
+  <img src="https://img.shields.io/badge/Streamlit-✓-red" />
+  <img src="https://img.shields.io/badge/Machine_Learning-✓-brightgreen" />
+</p>
 
 ---
 
@@ -100,18 +107,26 @@ In the deployed Streamlit app, users can interactively explore:
   - LSTM
   - GloVe Embeddings
   - Attention Layer (optional)
+    
+> Each model evaluated with accuracy, F1-score, precision, recall, and confusion matrix.  
+> Best performing model integrated into the Streamlit app for live prediction.
 
 ---
 
-## 🛠️ Tech Stack
+## 🖥️ Tech Stack
 
-- Python
-- Pandas, NumPy, Scikit-learn
-- TensorFlow / Keras
-- NLTK, VADER
-- Matplotlib, Seaborn
-- Streamlit
-- ngrok (for deployment)
+| Tool             | Purpose                             |
+|------------------|-----------------------------------|
+| Python           | Core programming language          |
+| pandas, numpy    | Data manipulation                  |
+| NLTK, spaCy      | Text preprocessing & NLP           |
+| VADER            | Sentiment labeling                 |
+| scikit-learn     | ML algorithms & evaluation          |
+| TensorFlow/Keras | Deep learning models                |
+| matplotlib, seaborn, wordcloud | Visualization            |
+| Streamlit        | Web app UI                        |
+| ngrok            | Public tunneling for hosted app    |
+| joblib           | Model serialization & loading     |
 
 ---
 ## 🧾 Conclusion
@@ -129,3 +144,15 @@ The final solution was deployed using Streamlit, enabling users to explore revie
 - Simple ML models can outperform DL models when data is noisy or lacks structure.
 - Streamlit is effective for rapid, interactive data app deployment.
 - User sentiment varies across time, platforms, versions, and review length — valuable for business strategy.
+
+---
+
+## 🧑‍💻 Author
+
+Built with ❤️ by **[PREETHI S]**
+
+---
+
+## 🏷️ Tags
+
+`#NLP` `#SentimentAnalysis` `#ChatGPT` `#MachineLearning` `#DeepLearning` `#Streamlit` `#Python` `#DataScience` `#TextClassification` `#VADER` `#LSTM` `#TFIDF` `#WordEmbeddings`
