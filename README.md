@@ -24,7 +24,7 @@ An intelligent NLP-powered app that classifies ChatGPT user reviews into **Posit
 
 ---
 
-## 📈 EDA Questions Answered
+## 📈 EDA
 
 1. 📊 **What is the distribution of review ratings?**  
    → Visualize how reviews are spread across star ratings (1 to 5).
@@ -58,7 +58,7 @@ An intelligent NLP-powered app that classifies ChatGPT user reviews into **Posit
 
 ---
 
-## 💬 Streamlit App Features
+## 💬 Streamlit
 
 In the deployed Streamlit app, users can interactively explore:
 
