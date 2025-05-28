@@ -132,11 +132,7 @@ In the deployed Streamlit app, users can interactively explore:
 ---
 ## 🧾 Conclusion
 
-This project, **AI Echo: Your Smartest Conversational Partner**, provided a comprehensive analysis of user reviews about ChatGPT using both traditional machine learning and deep learning approaches. Through meticulous preprocessing, VADER-based sentiment labeling, and extensive exploratory data analysis, we uncovered valuable insights into user satisfaction trends, platform differences, and key feedback themes.
-
-While deep learning models like BiLSTM were implemented, the non-contextual and often noisy nature of the reviews made classical machine learning models (especially Logistic Regression with TF-IDF features etc.) more effective in sentiment classification. This outcome highlights the importance of model selection based on data quality and task complexity.
-
-The final solution was deployed using Streamlit, enabling users to explore review sentiment, identify key concerns, and gain an interactive understanding of public feedback. The application empowers product teams to track changes in user sentiment, improve feature development, and address user pain points more effectively.
+AI Echo analyzes ChatGPT user reviews using both classical ML and deep learning. After preprocessing and VADER-based sentiment labeling, we found that traditional models like Logistic Regression with TF-IDF outperformed deep models (e.g., BiLSTM) due to the noisy, non-contextual nature of the data.
 
 ---
 
